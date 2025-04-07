@@ -26,3 +26,21 @@ img {
     }
     
 }
+
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    height: 100%; /* Ensures the container takes full height */
+    padding: 20px;
+    background-color: bisque;
+}
+
+.item {
+    flex: 1; /* Allows the items to grow and fill the space equally */
+    margin: 10px; /* Adds space between items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
