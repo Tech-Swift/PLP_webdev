@@ -40,7 +40,16 @@ img {
 .item {
     flex: 1; /* Allows the items to grow and fill the space equally */
     margin: 10px; /* Adds space between items */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+
+
+.grid-container {
+    display: grid;
+     grid-template-areas: '
+        header header header
+        menu content content
+        footer footer footer';
 }
