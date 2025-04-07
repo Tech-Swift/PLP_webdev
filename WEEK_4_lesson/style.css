@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto; /* Centers the container horizontally */
+    background-color: blue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(216, 173, 230); /* Change background color for small screens */
+    }
+    .container {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Adjust height automatically */
+        background-color: peru;
+    }
+    img {
+        border-radius: 0; /* Remove rounded corners on small screens if desired */
+    }
+    
+}
